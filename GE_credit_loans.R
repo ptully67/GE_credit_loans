@@ -13,7 +13,7 @@ library(corrplot)
 library(Hmisc)
 library(onehot)
 library(caret)
-Credit_Data <- read_excel("~/DAT-650/Credit Data.xls")
+Credit_Data <- read_excel("~/Credit Data.xls")
 
 # Convert to factors where needed
 Credit_Data$CHK_ACCT <- as.factor(Credit_Data$CHK_ACCT)
